@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="TestIntegration-20240620001217" tests="3" file=".py" time="18.345" timestamp="2024-06-20T00:12:35" failures="0" errors="0" skipped="0">
+		<testcase classname="TestIntegration" name="test_add_and_list_client" time="4.046" timestamp="2024-06-20T00:12:21" file="test_integracion.py" line="13"/>
+		<testcase classname="TestIntegration" name="test_add_and_list_vehicle" time="4.055" timestamp="2024-06-20T00:12:25" file="test_integracion.py" line="21"/>
+		<testcase classname="TestIntegration" name="test_rent_vehicle" time="10.245" timestamp="2024-06-20T00:12:35" file="test_integracion.py" line="30"/>
+	</testsuite>
+</testsuites>
