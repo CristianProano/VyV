@@ -8,7 +8,7 @@ class TestCliente(unittest.TestCase):
     @patch('xmlrpc.client.ServerProxy')
     def test_add_vehicle(self, mock_server):
         mock_server.return_value.add_vehicle.return_value = 1
-        with patch('builtins.input', side_effect=['1', 'Toyota', 'Corolla', '2020', '7']), \
+        with patch('builtins.input', side_effect=['1', 'Toyota', 'Corola', '2020', '7']), \
              patch('sys.stdout', new_callable=io.StringIO) as mock_stdout:
             with self.assertRaises(ExitException):
                 main()
